@@ -31,12 +31,12 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.admin', # 관리자
+    'django.contrib.auth', # 인증
+    'django.contrib.contenttypes', # 콘텐츠 타입
+    'django.contrib.sessions', # 세션 관리
+    'django.contrib.messages', # 메시징 프레임 워크
+    'django.contrib.staticfiles', # 정적 파일 관리
     'post.apps.PostConfig'
 ]
 
